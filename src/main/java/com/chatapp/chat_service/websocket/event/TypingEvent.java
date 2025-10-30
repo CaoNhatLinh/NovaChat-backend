@@ -1,6 +1,6 @@
 package com.chatapp.chat_service.websocket.event;
 
-import com.chatapp.chat_service.model.dto.UserDTO;
+import com.chatapp.chat_service.auth.dto.UserDTO;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
 import lombok.Builder;

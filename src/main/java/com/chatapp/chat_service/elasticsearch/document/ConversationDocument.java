@@ -1,10 +1,12 @@
 package com.chatapp.chat_service.elasticsearch.document;
 
-import com.chatapp.chat_service.model.dto.MessageSummary;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.elasticsearch.annotations.Document;
 import org.springframework.data.elasticsearch.annotations.Field;
 import org.springframework.data.elasticsearch.annotations.FieldType;
+
+import com.chatapp.chat_service.message.dto.MessageSummary;
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

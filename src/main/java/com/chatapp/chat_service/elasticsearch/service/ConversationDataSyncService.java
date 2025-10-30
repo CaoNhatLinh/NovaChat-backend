@@ -1,11 +1,11 @@
 package com.chatapp.chat_service.elasticsearch.service;
 
+import com.chatapp.chat_service.conversation.entity.Conversation;
+import com.chatapp.chat_service.conversation.repository.ConversationMemberRepository;
+import com.chatapp.chat_service.conversation.repository.ConversationRepository;
 import com.chatapp.chat_service.elasticsearch.document.ConversationDocument;
 import com.chatapp.chat_service.elasticsearch.repository.ConversationElasticsearchRepository;
-import com.chatapp.chat_service.model.entity.Conversation;
-import com.chatapp.chat_service.model.entity.ConversationMembers;
-import com.chatapp.chat_service.repository.ConversationMemberRepository;
-import com.chatapp.chat_service.repository.ConversationRepository;
+
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.CommandLineRunner;
